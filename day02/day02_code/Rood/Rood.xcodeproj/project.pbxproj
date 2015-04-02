@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DEC5CC1ACA3F2F00372EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEC5CB1ACA3F2F00372EA1 /* Foundation.framework */; };
+		04DEC5CF1ACA3F2F00372EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC5CE1ACA3F2F00372EA1 /* main.m */; };
+		04DEC5D31ACA3F2F00372EA1 /* Rood.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04DEC5D21ACA3F2F00372EA1 /* Rood.1 */; };
+		04DEC5DB1ACA3F3C00372EA1 /* Rood.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC5DA1ACA3F3C00372EA1 /* Rood.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04DEC5C61ACA3F2F00372EA1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				04DEC5D31ACA3F2F00372EA1 /* Rood.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04DEC5C81ACA3F2F00372EA1 /* Rood */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rood; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEC5CB1ACA3F2F00372EA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04DEC5CE1ACA3F2F00372EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DEC5D11ACA3F2F00372EA1 /* Rood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rood-Prefix.pch"; sourceTree = "<group>"; };
+		04DEC5D21ACA3F2F00372EA1 /* Rood.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Rood.1; sourceTree = "<group>"; };
+		04DEC5D91ACA3F3C00372EA1 /* Rood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rood.h; sourceTree = "<group>"; };
+		04DEC5DA1ACA3F3C00372EA1 /* Rood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rood.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DEC5C51ACA3F2F00372EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEC5CC1ACA3F2F00372EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DEC5BF1ACA3F2F00372EA1 = {
+			isa = PBXGroup;
+			children = (
+				04DEC5D91ACA3F3C00372EA1 /* Rood.h */,
+				04DEC5DA1ACA3F3C00372EA1 /* Rood.m */,
+				04DEC5CD1ACA3F2F00372EA1 /* Rood */,
+				04DEC5CA1ACA3F2F00372EA1 /* Frameworks */,
+				04DEC5C91ACA3F2F00372EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DEC5C91ACA3F2F00372EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DEC5C81ACA3F2F00372EA1 /* Rood */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DEC5CA1ACA3F2F00372EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04DEC5CB1ACA3F2F00372EA1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04DEC5CD1ACA3F2F00372EA1 /* Rood */ = {
+			isa = PBXGroup;
+			children = (
+				04DEC5CE1ACA3F2F00372EA1 /* main.m */,
+				04DEC5D21ACA3F2F00372EA1 /* Rood.1 */,
+				04DEC5D01ACA3F2F00372EA1 /* Supporting Files */,
+			);
+			path = Rood;
+			sourceTree = "<group>";
+		};
+		04DEC5D01ACA3F2F00372EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DEC5D11ACA3F2F00372EA1 /* Rood-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DEC5C71ACA3F2F00372EA1 /* Rood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEC5D61ACA3F2F00372EA1 /* Build configuration list for PBXNativeTarget "Rood" */;
+			buildPhases = (
+				04DEC5C41ACA3F2F00372EA1 /* Sources */,
+				04DEC5C51ACA3F2F00372EA1 /* Frameworks */,
+				04DEC5C61ACA3F2F00372EA1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rood;
+			productName = Rood;
+			productReference = 04DEC5C81ACA3F2F00372EA1 /* Rood */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DEC5C01ACA3F2F00372EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___Min___";
+			};
+			buildConfigurationList = 04DEC5C31ACA3F2F00372EA1 /* Build configuration list for PBXProject "Rood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04DEC5BF1ACA3F2F00372EA1;
+			productRefGroup = 04DEC5C91ACA3F2F00372EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DEC5C71ACA3F2F00372EA1 /* Rood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DEC5C41ACA3F2F00372EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEC5CF1ACA3F2F00372EA1 /* main.m in Sources */,
+				04DEC5DB1ACA3F3C00372EA1 /* Rood.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04DEC5D41ACA3F2F00372EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04DEC5D51ACA3F2F00372EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04DEC5D71ACA3F2F00372EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rood/Rood-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04DEC5D81ACA3F2F00372EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rood/Rood-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DEC5C31ACA3F2F00372EA1 /* Build configuration list for PBXProject "Rood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEC5D41ACA3F2F00372EA1 /* Debug */,
+				04DEC5D51ACA3F2F00372EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEC5D61ACA3F2F00372EA1 /* Build configuration list for PBXNativeTarget "Rood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEC5D71ACA3F2F00372EA1 /* Debug */,
+				04DEC5D81ACA3F2F00372EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DEC5C01ACA3F2F00372EA1 /* Project object */;
+}
