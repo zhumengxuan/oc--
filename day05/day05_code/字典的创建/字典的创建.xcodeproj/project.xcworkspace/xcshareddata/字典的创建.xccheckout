@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B3A04E7C-6EAF-41E7-9C10-CD8D3DCCBECC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>字典的创建</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>867503F5-D411-4967-8D84-4368AD8AD82B</key>
+		<string>https://github.com/zhumengxuan/oc--.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>day05/day05_code/字典的创建/字典的创建.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>867503F5-D411-4967-8D84-4368AD8AD82B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhumengxuan/oc--.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>867503F5-D411-4967-8D84-4368AD8AD82B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>867503F5-D411-4967-8D84-4368AD8AD82B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>oc-笔记</string>
+		</dict>
+	</array>
+</dict>
+</plist>

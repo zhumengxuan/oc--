@@ -22,8 +22,9 @@ int main(int argc, const char * argv[])
         ];
         for (int i = 0; i < [arr count]; i ++) {
             NSArray * arr2 = [arr[i] componentsSeparatedByString:@","];
-            Contact * con = [Contact creatWithName:[arr2 objectAtIndex:0] andAddress:[arr2 objectAtIndex:1] andCompany:[arr2 objectAtIndex:2] andJob:[arr2 objectAtIndex:3] andPhoneNum:[arr2 objectAtIndex:4] andTelphoneNum:[arr2 objectAtIndex:5]];
-            
+//            Contact * con = [Contact creatWithName:[arr2 objectAtIndex:0] andAddress:[arr2 objectAtIndex:1] andCompany:[arr2 objectAtIndex:2] andJob:[arr2 objectAtIndex:3] andPhoneNum:[arr2 objectAtIndex:4] andTelphoneNum:[arr2 objectAtIndex:5]];
+         
+            Contact * con = [Contact creatWithName:arr2[0] andAddress:arr2[1] andCompany:[arr2 objectAtIndex:2] andJob:[arr2 objectAtIndex:3] andPhoneNum:[arr2 objectAtIndex:4] andTelphoneNum:[arr2 objectAtIndex:5]];
             [muArr addObject:con];
         }
         
